@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { buttonVariants } from "@/components/ui/button";
 
 const navLinks = [
     { href: "/", label: "Home" },
@@ -18,9 +17,6 @@ export function Header() {
                     </Link>
                 ))}
             </nav>
-            <Link href="/dashboard" className={buttonVariants({ variant: "outline", size: "sm" })}>
-                Open App
-            </Link>
         </header>
     );
 }
