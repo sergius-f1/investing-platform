@@ -1,0 +1,23 @@
+version: 1.0
+runtime: nodejs20
+build:
+  commands:
+    pre-build:
+      # Install from the monorepo root so workspace packages (@fedasenka/models) are resolved
+      - cd ../../ && npm ci
+    build:
+      - npm run build
+  env:
+    - name: NODE_ENV
+      value: production
+run:
+  command: npm run start
+  network:
+    port: 3000
+    env: PORT
+  env:
+    - name: NODE_ENV
+      value: production
+    # Set via App Runner console → Configuration → Environment variables:
+    # SERVER_API_URL    — App Runner URL of the API service (e.g. https://xxx.us-east-1.awsapprunner.com)
+    # SERVER_API_TOKEN  (secret)
