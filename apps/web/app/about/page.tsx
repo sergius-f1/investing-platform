@@ -9,7 +9,8 @@ export default function About() {
                     <h1 className="text-4xl font-semibold tracking-tight">About</h1>
                     <p className="text-white/60 text-lg leading-relaxed">
                         Investment Platform is a personal portfolio dashboard for tracking positions,
-                        monitoring risk, and acting on market signals — all in one place.
+                        monitoring risk, and acting on market signals — with live price updates and
+                        cursor-based pagination across 40 positions.
                     </p>
                 </section>
 
@@ -18,11 +19,16 @@ export default function About() {
 
                     <div className="flex flex-col gap-4">
                         <TechGroup label="Frontend">
-                            <Tech name="Next.js 16" description="App Router, Server Components, streaming" />
+                            <Tech name="Next.js 16" description="App Router, Server Components, async searchParams" />
                             <Tech name="React 19" description="UI layer" />
                             <Tech name="Tailwind CSS 4" description="Utility-first styling" />
-                            <Tech name="Base UI" description="Headless, accessible components" />
+                            <Tech name="shadcn/ui" description="Table, Pagination — built on Base UI primitives" />
                             <Tech name="TypeScript" description="End-to-end type safety" />
+                        </TechGroup>
+
+                        <TechGroup label="Real-time">
+                            <Tech name="Server-Sent Events" description="Live price updates every 3s, proxied through Next.js route handler" />
+                            <Tech name="Cursor pagination" description="SSE streams only the visible page — not the full dataset" />
                         </TechGroup>
 
                         <TechGroup label="Backend">
@@ -33,7 +39,12 @@ export default function About() {
                         </TechGroup>
 
                         <TechGroup label="Shared">
-                            <Tech name="@fedasenka/models" description="Zod schemas shared between web and API via Yarn workspaces" />
+                            <Tech name="@fedasenka/models" description="Zod schemas shared between web and API via npm workspaces" />
+                        </TechGroup>
+
+                        <TechGroup label="Infrastructure">
+                            <Tech name="AWS App Runner" description="Two services: API and Web, auto-deploy on push to main" />
+                            <Tech name="GitHub Actions" description="CI on every PR — type-check and build both apps" />
                         </TechGroup>
                     </div>
                 </section>
@@ -62,16 +73,19 @@ export default function About() {
                     <h2 className="text-xl font-semibold">Architecture</h2>
                     <div className="flex flex-col gap-3 text-white/60 leading-relaxed">
                         <p>
-                            The project is a Yarn workspaces monorepo with three packages:
+                            The project is an npm workspaces monorepo with three packages:
                         </p>
                         <ul className="flex flex-col gap-2 pl-4 border-l border-white/10">
-                            <li><span className="text-white">apps/web</span> — Next.js frontend. Fetches data server-side and renders it as HTML. No client-side data fetching.</li>
+                            <li><span className="text-white">apps/web</span> — Next.js frontend. Server Components fetch data and render HTML. The browser receives only the page — never the API token.</li>
                             <li><span className="text-white">apps/api</span> — Express API. Owns all data access and business logic. Protected by bearer token auth.</li>
                             <li><span className="text-white">packages/models</span> — Zod schemas for shared types. Both apps import from here, so the contract is validated at runtime on both sides.</li>
                         </ul>
                         <p>
-                            Next.js talks to Express server-to-server, so the API token is never exposed to the browser.
-                            The browser only ever sees the rendered HTML from Next.js.
+                            The web app's <code className="text-white/80 bg-white/10 px-1.5 py-0.5 rounded text-sm">lib/api/</code> is split
+                            into <code className="text-white/80 bg-white/10 px-1.5 py-0.5 rounded text-sm">server/</code> and <code className="text-white/80 bg-white/10 px-1.5 py-0.5 rounded text-sm">client/</code> layers.
+                            The server layer holds the Bearer-token HTTP client — it only ever runs in Node.js.
+                            The client layer exposes a typed <code className="text-white/80 bg-white/10 px-1.5 py-0.5 rounded text-sm">EventSource</code> factory
+                            for the browser, which connects to a Next.js route handler that proxies the SSE stream from Express.
                         </p>
                     </div>
                 </section>
