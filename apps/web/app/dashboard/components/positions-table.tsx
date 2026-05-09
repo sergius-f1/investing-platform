@@ -1,7 +1,8 @@
 'use client';
 
 import type { PositionSignal } from '@fedasenka/models';
-import { usePositionsStream } from '@/app/dashboard/hooks/use-positions-stream';
+import { usePositionsStream } from '@/app/dashboard/hooks/usePositionsStream';
+import { PaginationControls } from '@/app/dashboard/components/PaginationControls';
 import {
     Table,
     TableBody,
@@ -19,41 +20,47 @@ const signalColors: Record<PositionSignal['signal'], string> = {
 
 interface Props {
     initialPositions: PositionSignal[];
+    after?: string;
+    nextCursor: string | null;
+    prevCursor: string | null;
 }
 
-export function PositionsTable({ initialPositions }: Props) {
-    const positions = usePositionsStream(initialPositions);
+export function PositionsTable({ initialPositions, after, nextCursor, prevCursor }: Props) {
+    const positions = usePositionsStream(initialPositions, after);
 
     return (
-        <Table>
-            <TableHeader>
-                <TableRow>
-                    <TableHead>Symbol</TableHead>
-                    <TableHead>Price</TableHead>
-                    <TableHead>24h Change</TableHead>
-                    <TableHead>Weight</TableHead>
-                    <TableHead>Signal</TableHead>
-                    <TableHead>Confidence</TableHead>
-                    <TableHead>Rationale</TableHead>
-                </TableRow>
-            </TableHeader>
-            <TableBody>
-                {positions.map((pos) => (
-                    <TableRow key={pos.symbol}>
-                        <TableCell className="font-medium">{pos.symbol}</TableCell>
-                        <TableCell>${pos.price.toFixed(2)}</TableCell>
-                        <TableCell className={pos.change24h >= 0 ? 'text-green-600' : 'text-red-600'}>
-                            {pos.change24h >= 0 ? '+' : ''}{pos.change24h.toFixed(2)}%
-                        </TableCell>
-                        <TableCell>{(pos.weight * 100).toFixed(0)}%</TableCell>
-                        <TableCell className={`font-semibold ${signalColors[pos.signal]}`}>
-                            {pos.signal}
-                        </TableCell>
-                        <TableCell>{(pos.confidence * 100).toFixed(0)}%</TableCell>
-                        <TableCell className="text-muted-foreground">{pos.rationale}</TableCell>
+        <div className="flex flex-col gap-4">
+            <Table>
+                <TableHeader>
+                    <TableRow>
+                        <TableHead>Symbol</TableHead>
+                        <TableHead>Price</TableHead>
+                        <TableHead>24h Change</TableHead>
+                        <TableHead>Weight</TableHead>
+                        <TableHead>Signal</TableHead>
+                        <TableHead>Confidence</TableHead>
+                        <TableHead>Rationale</TableHead>
                     </TableRow>
-                ))}
-            </TableBody>
-        </Table>
+                </TableHeader>
+                <TableBody>
+                    {positions.map((pos) => (
+                        <TableRow key={pos.symbol}>
+                            <TableCell className="font-medium">{pos.symbol}</TableCell>
+                            <TableCell>${pos.price.toFixed(2)}</TableCell>
+                            <TableCell className={pos.change24h >= 0 ? 'text-green-600' : 'text-red-600'}>
+                                {pos.change24h >= 0 ? '+' : ''}{pos.change24h.toFixed(2)}%
+                            </TableCell>
+                            <TableCell>{(pos.weight * 100).toFixed(0)}%</TableCell>
+                            <TableCell className={`font-semibold ${signalColors[pos.signal]}`}>
+                                {pos.signal}
+                            </TableCell>
+                            <TableCell>{(pos.confidence * 100).toFixed(0)}%</TableCell>
+                            <TableCell className="text-muted-foreground">{pos.rationale}</TableCell>
+                        </TableRow>
+                    ))}
+                </TableBody>
+            </Table>
+            <PaginationControls after={after} nextCursor={nextCursor} prevCursor={prevCursor} />
+        </div>
     );
 }

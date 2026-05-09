@@ -22,6 +22,8 @@ export const PositionSignalSchema = z.object({
 export const DashboardResponseSchema = z.object({
     meta: PortfolioMetaSchema,
     positions: z.array(PositionSignalSchema),
+    nextCursor: z.string().nullable(),
+    prevCursor: z.string().nullable(),
 });
 
 export type PortfolioMeta = z.infer<typeof PortfolioMetaSchema>;

@@ -8,12 +8,26 @@ export interface Position {
 }
 
 const basePositions: Position[] = [
-  { symbol: 'AAPL', price: 189.43, change24h: 1.2,  weight: 0.22, volatility: 'low',  momentum: 'positive' },
-  { symbol: 'NVDA', price: 875.20, change24h: 3.8,  weight: 0.18, volatility: 'low',  momentum: 'positive' },
-  { symbol: 'TSLA', price: 248.10, change24h: -2.1, weight: 0.12, volatility: 'high', momentum: 'negative' },
-  { symbol: 'MSFT', price: 415.60, change24h: 0.4,  weight: 0.20, volatility: 'low',  momentum: 'neutral'  },
-  { symbol: 'META', price: 523.80, change24h: -0.9, weight: 0.14, volatility: 'med',  momentum: 'neutral'  },
-  { symbol: 'AMZN', price: 195.30, change24h: 1.8,  weight: 0.14, volatility: 'low',  momentum: 'positive' },
+  { symbol: 'AAPL',  price:  189.43, change24h:  1.2,  weight: 0.10, volatility: 'low',  momentum: 'positive' },
+  { symbol: 'NVDA',  price:  875.20, change24h:  3.8,  weight: 0.09, volatility: 'low',  momentum: 'positive' },
+  { symbol: 'MSFT',  price:  415.60, change24h:  0.4,  weight: 0.09, volatility: 'low',  momentum: 'neutral'  },
+  { symbol: 'AMZN',  price:  195.30, change24h:  1.8,  weight: 0.08, volatility: 'low',  momentum: 'positive' },
+  { symbol: 'META',  price:  523.80, change24h: -0.9,  weight: 0.07, volatility: 'med',  momentum: 'neutral'  },
+  { symbol: 'TSLA',  price:  248.10, change24h: -2.1,  weight: 0.05, volatility: 'high', momentum: 'negative' },
+  { symbol: 'GOOGL', price:  175.80, change24h:  0.7,  weight: 0.06, volatility: 'low',  momentum: 'positive' },
+  { symbol: 'NFLX',  price:  628.40, change24h:  2.3,  weight: 0.05, volatility: 'med',  momentum: 'positive' },
+  { symbol: 'AMD',   price:  162.90, change24h: -1.4,  weight: 0.05, volatility: 'high', momentum: 'neutral'  },
+  { symbol: 'JPM',   price:  198.50, change24h:  0.3,  weight: 0.05, volatility: 'low',  momentum: 'neutral'  },
+  { symbol: 'V',     price:  271.20, change24h:  0.5,  weight: 0.04, volatility: 'low',  momentum: 'positive' },
+  { symbol: 'MA',    price:  462.70, change24h:  0.6,  weight: 0.04, volatility: 'low',  momentum: 'positive' },
+  { symbol: 'DIS',   price:   97.30, change24h: -1.1,  weight: 0.04, volatility: 'med',  momentum: 'negative' },
+  { symbol: 'COIN',  price:  214.60, change24h:  5.2,  weight: 0.04, volatility: 'high', momentum: 'positive' },
+  { symbol: 'PYPL',  price:   63.80, change24h: -0.8,  weight: 0.03, volatility: 'med',  momentum: 'negative' },
+  { symbol: 'UBER',  price:   74.20, change24h:  1.1,  weight: 0.03, volatility: 'med',  momentum: 'positive' },
+  { symbol: 'PLTR',  price:   24.50, change24h:  3.1,  weight: 0.03, volatility: 'high', momentum: 'positive' },
+  { symbol: 'SHOP',  price:   72.90, change24h: -0.5,  weight: 0.02, volatility: 'med',  momentum: 'neutral'  },
+  { symbol: 'INTC',  price:   30.40, change24h: -1.7,  weight: 0.02, volatility: 'high', momentum: 'negative' },
+  { symbol: 'SNAP',  price:   11.20, change24h: -3.4,  weight: 0.02, volatility: 'high', momentum: 'negative' },
 ];
 
 const spread = { low: 0.01, med: 0.025, high: 0.05 };
