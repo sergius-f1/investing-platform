@@ -12,16 +12,16 @@ export default async function DashboardPage() {
 
     return (
         <main className="flex flex-col gap-8 p-8">
-            <h1 className="text-2xl font-semibold">Portfolio</h1>
+                <h1 className="text-2xl font-semibold">Portfolio</h1>
 
-            <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
-                <Stat label="Total Value" value={`$${meta.totalValue.toLocaleString()}`} />
-                <Stat label="Daily P&L" value={`$${meta.dailyPnL.toLocaleString()}`} />
-                <Stat label="Daily P&L %" value={`${meta.dailyPnLPct}%`} />
-                <Stat label="Risk Score" value={String(meta.riskScore)} />
-            </div>
+                <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
+                    <Stat label="Total Value" value={`$${meta.totalValue.toLocaleString()}`} />
+                    <Stat label="Daily P&L" value={`$${meta.dailyPnL.toLocaleString()}`} />
+                    <Stat label="Daily P&L %" value={`${meta.dailyPnLPct}%`} />
+                    <Stat label="Risk Score" value={String(meta.riskScore)} />
+                </div>
 
-            <PositionsTable positions={positions} />
+                <PositionsTable positions={positions} />
         </main>
     );
 }
