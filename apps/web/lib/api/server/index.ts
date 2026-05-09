@@ -1,4 +1,11 @@
-import { CONTENT_TYPE_JSON, HEADER_AUTHORIZATION, HEADER_CONTENT_TYPE } from "@/lib/api/constants";
+import {
+    CONTENT_TYPE_EVENT_STREAM,
+    CONTENT_TYPE_JSON,
+    HEADER_AUTHORIZATION,
+    HEADER_CACHE_CONTROL,
+    HEADER_CONNECTION,
+    HEADER_CONTENT_TYPE,
+} from "@/lib/api/constants";
 
 type RequestBody = Record<string, unknown>;
 
@@ -46,4 +53,15 @@ const post = <T>(path: string, body: RequestBody): Promise<T | undefined> =>
         body: JSON.stringify(body),
     });
 
-export const httpClient = { get, post };
+const sse = async (path: string): Promise<Response> => {
+    const upstream = await fetch(getUrl(path), { headers: getAuthHeaders() });
+    return new Response(upstream.body, {
+        headers: {
+            [HEADER_CONTENT_TYPE]: CONTENT_TYPE_EVENT_STREAM,
+            [HEADER_CACHE_CONTROL]: 'no-cache',
+            [HEADER_CONNECTION]: 'keep-alive',
+        },
+    });
+};
+
+export const httpClient = { get, post, sse };

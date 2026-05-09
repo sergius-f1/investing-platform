@@ -1,5 +1,5 @@
-import { getDashboard } from '@/services/dashboard';
-import { PositionsTable } from '@/components/positions-table';
+import { getDashboard } from '@/lib/api/server/dashboard';
+import { PositionsTable } from '@/app/dashboard/components/positions-table';
 
 export default async function DashboardPage() {
     const data = await getDashboard();
@@ -21,7 +21,7 @@ export default async function DashboardPage() {
                     <Stat label="Risk Score" value={String(meta.riskScore)} />
                 </div>
 
-                <PositionsTable positions={positions} />
+                <PositionsTable initialPositions={positions} />
         </main>
     );
 }

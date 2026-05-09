@@ -1,4 +1,4 @@
-import { httpClient } from '@/lib/api';
+import { httpClient } from '@/lib/api/server';
 import type { DashboardResponse } from '@fedasenka/models';
 
 export function getDashboard(): Promise<DashboardResponse | undefined> {

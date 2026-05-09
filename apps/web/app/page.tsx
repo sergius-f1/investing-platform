@@ -6,7 +6,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
     return (
-        <div className="flex flex-col min-h-screen bg-black text-white">
+        <div className="flex flex-col flex-1 overflow-hidden bg-black text-white">
 
             <main className={`${styles.heroGradient} flex flex-1 flex-col items-center justify-center text-center px-8 py-32 relative overflow-hidden`}>
                 <NetworkBackground />

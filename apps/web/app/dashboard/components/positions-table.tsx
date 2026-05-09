@@ -1,4 +1,7 @@
+'use client';
+
 import type { PositionSignal } from '@fedasenka/models';
+import { usePositionsStream } from '@/app/dashboard/hooks/use-positions-stream';
 import {
     Table,
     TableBody,
@@ -15,10 +18,12 @@ const signalColors: Record<PositionSignal['signal'], string> = {
 };
 
 interface Props {
-    positions: PositionSignal[];
+    initialPositions: PositionSignal[];
 }
 
-export function PositionsTable({ positions }: Props) {
+export function PositionsTable({ initialPositions }: Props) {
+    const positions = usePositionsStream(initialPositions);
+
     return (
         <Table>
             <TableHeader>
