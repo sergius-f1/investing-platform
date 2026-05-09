@@ -1,0 +1,8 @@
+{
+  "name": "@fedasenka/investment-platform",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
