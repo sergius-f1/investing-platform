@@ -13,7 +13,7 @@ export function NavLinks() {
     const pathname = usePathname();
 
     return (
-        <nav className="sm:flex items-center gap-6 text-sm text-white/60">
+        <nav className="flex flex-wrap items-center gap-4 text-sm text-white/60">
             {navLinks.map(({ href, label }) => {
                 const isActive = pathname === href;
                 return (

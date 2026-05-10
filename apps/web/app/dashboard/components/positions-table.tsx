@@ -1,6 +1,7 @@
 'use client';
 
-import { useRef } from 'react';
+import { useRef, useState, useMemo } from 'react';
+import { SortableHead } from '@/components/ui/sortable-head';
 import { useVirtualizer } from '@tanstack/react-virtual';
 import type { PositionSignal } from '@fedasenka/models';
 import { usePositionsStream } from '@/app/dashboard/hooks/usePositionsStream';
@@ -22,16 +23,32 @@ const signalColors: Record<PositionSignal['signal'], string> = {
 const COLUMNS = 7;
 const ROW_HEIGHT = 41;
 
+const SIGNAL_ORDER: Record<PositionSignal['signal'], number> = { BUY: 0, HOLD: 1, REDUCE: 2 };
+
+import type { SortDir } from '@/lib/types';
+
 interface Props {
     initialPositions: PositionSignal[];
 }
 
 export function PositionsTable({ initialPositions }: Props) {
     const positions = usePositionsStream(initialPositions);
+    const [signalSort, setSignalSort] = useState<SortDir>(null);
     const scrollRef = useRef<HTMLDivElement>(null);
 
+    const sortedPositions = useMemo(() => {
+        if (!signalSort) return positions;
+        return [...positions].sort((a, b) => {
+            const diff = SIGNAL_ORDER[a.signal] - SIGNAL_ORDER[b.signal];
+            return signalSort === 'asc' ? diff : -diff;
+        });
+    }, [positions, signalSort]);
+
+    const cycleSort = () =>
+        setSignalSort((prev) => (prev === null ? 'asc' : prev === 'asc' ? 'desc' : null));
+
     const virtualizer = useVirtualizer({
-        count: positions.length,
+        count: sortedPositions.length,
         getScrollElement: () => scrollRef.current,
         estimateSize: () => ROW_HEIGHT,
     });
@@ -45,18 +62,21 @@ export function PositionsTable({ initialPositions }: Props) {
 
     return (
         <Table
+            className="table-fixed"
             containerRef={scrollRef}
             containerClassName="h-96 overflow-auto rounded-md border"
         >
             <TableHeader className="sticky top-0 z-10 bg-background">
                 <TableRow>
-                    <TableHead>Symbol</TableHead>
-                    <TableHead>Price</TableHead>
-                    <TableHead>24h Change</TableHead>
-                    <TableHead>Weight</TableHead>
-                    <TableHead>Signal</TableHead>
-                    <TableHead>Confidence</TableHead>
-                    <TableHead>Rationale</TableHead>
+                    <TableHead className="w-24">Symbol</TableHead>
+                    <TableHead className="w-28">Price</TableHead>
+                    <TableHead className="w-28">24h Change</TableHead>
+                    <TableHead className="w-20">Weight</TableHead>
+                    <SortableHead sortDir={signalSort} onSort={cycleSort} className="w-24">
+                        Signal
+                    </SortableHead>
+                    <TableHead className="w-28">Confidence</TableHead>
+                    <TableHead className="w-64">Rationale</TableHead>
                 </TableRow>
             </TableHeader>
             <TableBody>
@@ -64,7 +84,7 @@ export function PositionsTable({ initialPositions }: Props) {
                     <tr><td colSpan={COLUMNS} style={{ height: paddingTop }} /></tr>
                 )}
                 {virtualRows.map((virtualRow) => {
-                    const pos = positions[virtualRow.index];
+                    const pos = sortedPositions[virtualRow.index];
                     return (
                         <TableRow key={pos.symbol}>
                             <TableCell className="font-medium">{pos.symbol}</TableCell>
@@ -77,7 +97,7 @@ export function PositionsTable({ initialPositions }: Props) {
                                 {pos.signal}
                             </TableCell>
                             <TableCell>{(pos.confidence * 100).toFixed(0)}%</TableCell>
-                            <TableCell className="text-muted-foreground">{pos.rationale}</TableCell>
+                            <TableCell className="truncate text-muted-foreground" title={pos.rationale}>{pos.rationale}</TableCell>
                         </TableRow>
                     );
                 })}
