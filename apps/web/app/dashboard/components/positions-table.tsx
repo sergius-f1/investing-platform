@@ -1,8 +1,9 @@
 'use client';
 
+import { useRef } from 'react';
+import { useVirtualizer } from '@tanstack/react-virtual';
 import type { PositionSignal } from '@fedasenka/models';
 import { usePositionsStream } from '@/app/dashboard/hooks/usePositionsStream';
-import { PaginationControls } from '@/app/dashboard/components/PaginationControls';
 import {
     Table,
     TableBody,
@@ -18,32 +19,53 @@ const signalColors: Record<PositionSignal['signal'], string> = {
     REDUCE: 'text-red-600',
 };
 
+const COLUMNS = 7;
+const ROW_HEIGHT = 41;
+
 interface Props {
     initialPositions: PositionSignal[];
-    after?: string;
-    nextCursor: string | null;
-    prevCursor: string | null;
 }
 
-export function PositionsTable({ initialPositions, after, nextCursor, prevCursor }: Props) {
-    const positions = usePositionsStream(initialPositions, after);
+export function PositionsTable({ initialPositions }: Props) {
+    const positions = usePositionsStream(initialPositions);
+    const scrollRef = useRef<HTMLDivElement>(null);
+
+    const virtualizer = useVirtualizer({
+        count: positions.length,
+        getScrollElement: () => scrollRef.current,
+        estimateSize: () => ROW_HEIGHT,
+    });
+
+    const virtualRows = virtualizer.getVirtualItems();
+    const totalSize = virtualizer.getTotalSize();
+    const paddingTop = virtualRows.length > 0 ? virtualRows[0].start : 0;
+    const paddingBottom = virtualRows.length > 0
+        ? totalSize - virtualRows[virtualRows.length - 1].end
+        : 0;
 
     return (
-        <div className="flex flex-col gap-4">
-            <Table>
-                <TableHeader>
-                    <TableRow>
-                        <TableHead>Symbol</TableHead>
-                        <TableHead>Price</TableHead>
-                        <TableHead>24h Change</TableHead>
-                        <TableHead>Weight</TableHead>
-                        <TableHead>Signal</TableHead>
-                        <TableHead>Confidence</TableHead>
-                        <TableHead>Rationale</TableHead>
-                    </TableRow>
-                </TableHeader>
-                <TableBody>
-                    {positions.map((pos) => (
+        <Table
+            containerRef={scrollRef}
+            containerClassName="h-96 overflow-auto rounded-md border"
+        >
+            <TableHeader className="sticky top-0 z-10 bg-background">
+                <TableRow>
+                    <TableHead>Symbol</TableHead>
+                    <TableHead>Price</TableHead>
+                    <TableHead>24h Change</TableHead>
+                    <TableHead>Weight</TableHead>
+                    <TableHead>Signal</TableHead>
+                    <TableHead>Confidence</TableHead>
+                    <TableHead>Rationale</TableHead>
+                </TableRow>
+            </TableHeader>
+            <TableBody>
+                {paddingTop > 0 && (
+                    <tr><td colSpan={COLUMNS} style={{ height: paddingTop }} /></tr>
+                )}
+                {virtualRows.map((virtualRow) => {
+                    const pos = positions[virtualRow.index];
+                    return (
                         <TableRow key={pos.symbol}>
                             <TableCell className="font-medium">{pos.symbol}</TableCell>
                             <TableCell>${pos.price.toFixed(2)}</TableCell>
@@ -57,10 +79,12 @@ export function PositionsTable({ initialPositions, after, nextCursor, prevCursor
                             <TableCell>{(pos.confidence * 100).toFixed(0)}%</TableCell>
                             <TableCell className="text-muted-foreground">{pos.rationale}</TableCell>
                         </TableRow>
-                    ))}
-                </TableBody>
-            </Table>
-            <PaginationControls after={after} nextCursor={nextCursor} prevCursor={prevCursor} />
-        </div>
+                    );
+                })}
+                {paddingBottom > 0 && (
+                    <tr><td colSpan={COLUMNS} style={{ height: paddingBottom }} /></tr>
+                )}
+            </TableBody>
+        </Table>
     );
 }

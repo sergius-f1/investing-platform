@@ -1,19 +1,14 @@
 import { getDashboard } from '@/lib/api/server/dashboard';
 import { PositionsTable } from '@/app/dashboard/components/positions-table';
 
-export default async function DashboardPage({
-    searchParams,
-}: {
-    searchParams: Promise<{ after?: string }>;
-}) {
-    const { after } = await searchParams;
-    const data = await getDashboard(after);
+export default async function DashboardPage() {
+    const data = await getDashboard();
 
     if (!data) {
         return <p className="p-8 text-destructive">Failed to load dashboard.</p>;
     }
 
-    const { meta, positions, nextCursor, prevCursor } = data;
+    const { meta, positions } = data;
 
     return (
         <main className="flex flex-col gap-8 p-8">
@@ -26,12 +21,7 @@ export default async function DashboardPage({
                 <Stat label="Risk Score" value={String(meta.riskScore)} />
             </div>
 
-            <PositionsTable
-                initialPositions={positions}
-                after={after}
-                nextCursor={nextCursor}
-                prevCursor={prevCursor}
-            />
+            <PositionsTable initialPositions={positions} />
         </main>
     );
 }

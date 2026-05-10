@@ -1,0 +1,3202 @@
+[
+  {
+    "symbol": "AAPL",
+    "price": 173.15,
+    "change24h": -4.86,
+    "weight": 0.024709,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "MSFT",
+    "price": 406.37,
+    "change24h": -2.08,
+    "weight": 0.013012,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "NVDA",
+    "price": 904.4,
+    "change24h": 3.36,
+    "weight": 0.019183,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "GOOGL",
+    "price": 170.94,
+    "change24h": -2.32,
+    "weight": 0.013574,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "AMZN",
+    "price": 187.7,
+    "change24h": 1.46,
+    "weight": 0.012659,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "META",
+    "price": 515.3,
+    "change24h": 3.06,
+    "weight": 0.017092,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "TSLA",
+    "price": 172.04,
+    "change24h": -1.69,
+    "weight": 0.010893,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "AVGO",
+    "price": 167.59,
+    "change24h": 1.57,
+    "weight": 0.015844,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "ORCL",
+    "price": 119.08,
+    "change24h": -4.74,
+    "weight": 0.011596,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "AMD",
+    "price": 164.62,
+    "change24h": -0.23,
+    "weight": 0.020178,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "INTC",
+    "price": 33.55,
+    "change24h": -4.14,
+    "weight": 0.012749,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "QCOM",
+    "price": 163.27,
+    "change24h": -1.05,
+    "weight": 0.011586,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "TXN",
+    "price": 186.31,
+    "change24h": 0.71,
+    "weight": 0.018019,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "AMAT",
+    "price": 217.29,
+    "change24h": 3.47,
+    "weight": 0.018674,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "LRCX",
+    "price": 865.98,
+    "change24h": -3.78,
+    "weight": 0.015203,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "KLAC",
+    "price": 713.79,
+    "change24h": 1.97,
+    "weight": 0.016525,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "MU",
+    "price": 90.95,
+    "change24h": -4.26,
+    "weight": 0.019802,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "MRVL",
+    "price": 69.84,
+    "change24h": -0.23,
+    "weight": 0.027743,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "NXPI",
+    "price": 219.26,
+    "change24h": 4.41,
+    "weight": 0.028852,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "ON",
+    "price": 70.34,
+    "change24h": 0.49,
+    "weight": 0.017135,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "SNPS",
+    "price": 532.68,
+    "change24h": -3.15,
+    "weight": 0.007875,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "CDNS",
+    "price": 279.19,
+    "change24h": -2.04,
+    "weight": 0.006067,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "ANSS",
+    "price": 363.06,
+    "change24h": 3.73,
+    "weight": 0.003887,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "CRWD",
+    "price": 358.53,
+    "change24h": -3.1,
+    "weight": 0.00259,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "PANW",
+    "price": 308.3,
+    "change24h": -0.55,
+    "weight": 0.005779,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "FTNT",
+    "price": 76.29,
+    "change24h": 1.72,
+    "weight": 0.003421,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "ZS",
+    "price": 187.67,
+    "change24h": -3.76,
+    "weight": 0.002355,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "OKTA",
+    "price": 107.97,
+    "change24h": 2.83,
+    "weight": 0.006399,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "NET",
+    "price": 105.52,
+    "change24h": -4.07,
+    "weight": 0.004878,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "DDOG",
+    "price": 134.54,
+    "change24h": 3.49,
+    "weight": 0.007647,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "SNOW",
+    "price": 159.39,
+    "change24h": -3.4,
+    "weight": 0.005099,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "MDB",
+    "price": 358.09,
+    "change24h": -3.22,
+    "weight": 0.00328,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "ESTC",
+    "price": 88.08,
+    "change24h": 3.62,
+    "weight": 0.002539,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "SPLK",
+    "price": 155.64,
+    "change24h": 0.41,
+    "weight": 0.003353,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "TEAM",
+    "price": 218.55,
+    "change24h": 1.65,
+    "weight": 0.007567,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "HUBS",
+    "price": 611.97,
+    "change24h": 4.61,
+    "weight": 0.005071,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "NOW",
+    "price": 803.6,
+    "change24h": 3.69,
+    "weight": 0.007191,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "CRM",
+    "price": 318.66,
+    "change24h": 4.48,
+    "weight": 0.002193,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "WDAY",
+    "price": 281.93,
+    "change24h": 4.42,
+    "weight": 0.003038,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "SAP",
+    "price": 221.28,
+    "change24h": 0.58,
+    "weight": 0.004864,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "INTU",
+    "price": 648.08,
+    "change24h": 2.06,
+    "weight": 0.006574,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "ADBE",
+    "price": 465.41,
+    "change24h": -2.02,
+    "weight": 0.002237,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "SHOP",
+    "price": 75,
+    "change24h": 0,
+    "weight": 0.007104,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "SQ",
+    "price": 76.27,
+    "change24h": 1.69,
+    "weight": 0.006797,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "PYPL",
+    "price": 62.2,
+    "change24h": -4.31,
+    "weight": 0.002303,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "V",
+    "price": 281.6,
+    "change24h": 2.4,
+    "weight": 0.002774,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "MA",
+    "price": 469.09,
+    "change24h": 0.88,
+    "weight": 0.005335,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "ADSK",
+    "price": 266.76,
+    "change24h": 4.61,
+    "weight": 0.006215,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "CTSH",
+    "price": 70.71,
+    "change24h": 1.01,
+    "weight": 0.006269,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "ACN",
+    "price": 325.02,
+    "change24h": -2.98,
+    "weight": 0.003432,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "JPM",
+    "price": 206.33,
+    "change24h": -1.75,
+    "weight": 0.003618,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "BAC",
+    "price": 39.38,
+    "change24h": -1.56,
+    "weight": 0.002674,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "WFC",
+    "price": 59.69,
+    "change24h": -0.51,
+    "weight": 0.006636,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "GS",
+    "price": 456.14,
+    "change24h": -4.97,
+    "weight": 0.004627,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "MS",
+    "price": 107.62,
+    "change24h": 2.5,
+    "weight": 0.002967,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "C",
+    "price": 66.04,
+    "change24h": 1.6,
+    "weight": 0.002268,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "USB",
+    "price": 47.16,
+    "change24h": 4.79,
+    "weight": 0.007201,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "PNC",
+    "price": 162.81,
+    "change24h": -1.33,
+    "weight": 0.002123,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "TFC",
+    "price": 43.19,
+    "change24h": -4.03,
+    "weight": 0.004164,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "SCHW",
+    "price": 75.74,
+    "change24h": 0.99,
+    "weight": 0.004821,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "BLK",
+    "price": 857.92,
+    "change24h": -3.06,
+    "weight": 0.007603,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "BX",
+    "price": 129.03,
+    "change24h": -0.75,
+    "weight": 0.003542,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "APO",
+    "price": 110.3,
+    "change24h": -4.09,
+    "weight": 0.00516,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "KKR",
+    "price": 118.61,
+    "change24h": 3.14,
+    "weight": 0.006699,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "AXP",
+    "price": 237.63,
+    "change24h": 1.12,
+    "weight": 0.006988,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "COF",
+    "price": 160.1,
+    "change24h": 3.29,
+    "weight": 0.006105,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "DFS",
+    "price": 152.01,
+    "change24h": -1.93,
+    "weight": 0.007534,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "SYF",
+    "price": 52.47,
+    "change24h": 0.91,
+    "weight": 0.007625,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "ALLY",
+    "price": 35.1,
+    "change24h": -2.49,
+    "weight": 0.007307,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "MTB",
+    "price": 159.59,
+    "change24h": 2.96,
+    "weight": 0.003807,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "FITB",
+    "price": 43.06,
+    "change24h": 2.53,
+    "weight": 0.007952,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "HBAN",
+    "price": 15.8,
+    "change24h": -1.26,
+    "weight": 0.007528,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "KEY",
+    "price": 16.5,
+    "change24h": 3.11,
+    "weight": 0.006729,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "CFG",
+    "price": 37.64,
+    "change24h": 4.56,
+    "weight": 0.007031,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "RF",
+    "price": 23,
+    "change24h": 4.54,
+    "weight": 0.003255,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "BRKB",
+    "price": 359.2,
+    "change24h": 2.63,
+    "weight": 0.002962,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "MET",
+    "price": 74.91,
+    "change24h": -0.12,
+    "weight": 0.007093,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "PRU",
+    "price": 116.32,
+    "change24h": 1.15,
+    "weight": 0.0022,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "AFL",
+    "price": 94.89,
+    "change24h": -0.12,
+    "weight": 0.006335,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "AIZ",
+    "price": 177.88,
+    "change24h": -1.18,
+    "weight": 0.004298,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "CB",
+    "price": 242.35,
+    "change24h": -4.96,
+    "weight": 0.00711,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "ALL",
+    "price": 188.9,
+    "change24h": 2.11,
+    "weight": 0.003518,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "PGR",
+    "price": 229.03,
+    "change24h": -2.54,
+    "weight": 0.006495,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "TRV",
+    "price": 236.04,
+    "change24h": -1.65,
+    "weight": 0.005821,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "HIG",
+    "price": 110.31,
+    "change24h": -4.08,
+    "weight": 0.002606,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "JNJ",
+    "price": 162.21,
+    "change24h": 4.65,
+    "weight": 0.0035,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "UNH",
+    "price": 524.43,
+    "change24h": 2.83,
+    "weight": 0.006638,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "LLY",
+    "price": 749.35,
+    "change24h": -3.31,
+    "weight": 0.005559,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "ABBV",
+    "price": 176.63,
+    "change24h": 0.93,
+    "weight": 0.003888,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "MRK",
+    "price": 127.84,
+    "change24h": 2.27,
+    "weight": 0.007404,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "PFE",
+    "price": 28.03,
+    "change24h": -3.35,
+    "weight": 0.003249,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "BMY",
+    "price": 51.12,
+    "change24h": 2.23,
+    "weight": 0.002211,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "AMGN",
+    "price": 261.28,
+    "change24h": -4.99,
+    "weight": 0.006832,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "GILD",
+    "price": 87.5,
+    "change24h": 2.94,
+    "weight": 0.007925,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "REGN",
+    "price": 1048.3,
+    "change24h": 4.83,
+    "weight": 0.005162,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "VRTX",
+    "price": 493.5,
+    "change24h": 5,
+    "weight": 0.00574,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "BIIB",
+    "price": 230.51,
+    "change24h": 2.45,
+    "weight": 0.005702,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "IDXX",
+    "price": 519.45,
+    "change24h": 3.89,
+    "weight": 0.005511,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "DXCM",
+    "price": 98.3,
+    "change24h": -1.7,
+    "weight": 0.005494,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "ISRG",
+    "price": 416.89,
+    "change24h": -0.74,
+    "weight": 0.006623,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "SYK",
+    "price": 345.13,
+    "change24h": -2.78,
+    "weight": 0.000701,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "MDT",
+    "price": 81.52,
+    "change24h": -4.09,
+    "weight": 0.00102,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "BSX",
+    "price": 81.11,
+    "change24h": 1.39,
+    "weight": 0.000759,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "EW",
+    "price": 93.72,
+    "change24h": -1.35,
+    "weight": 0.000558,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "ZBH",
+    "price": 112.55,
+    "change24h": 2.32,
+    "weight": 0.000861,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "BDX",
+    "price": 234.62,
+    "change24h": 2.01,
+    "weight": 0.000797,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "BAX",
+    "price": 35.52,
+    "change24h": 1.48,
+    "weight": 0.000537,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "IQV",
+    "price": 213.09,
+    "change24h": -0.89,
+    "weight": 0.000698,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "CRL",
+    "price": 216.87,
+    "change24h": 0.87,
+    "weight": 0.001063,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "TMO",
+    "price": 561.77,
+    "change24h": 1.22,
+    "weight": 0.000561,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "DHR",
+    "price": 236.42,
+    "change24h": -3.5,
+    "weight": 0.000939,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "A",
+    "price": 143.12,
+    "change24h": 2.23,
+    "weight": 0.001027,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "MTD",
+    "price": 1391.58,
+    "change24h": 3.08,
+    "weight": 0.000782,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "WAT",
+    "price": 332.64,
+    "change24h": -4.96,
+    "weight": 0.000713,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "HOLX",
+    "price": 75.65,
+    "change24h": 0.87,
+    "weight": 0.000931,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "CVS",
+    "price": 58.25,
+    "change24h": -2.91,
+    "weight": 0.000989,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "CI",
+    "price": 340.27,
+    "change24h": 4.7,
+    "weight": 0.000988,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "HUM",
+    "price": 348.77,
+    "change24h": 4.11,
+    "weight": 0.000952,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "MOH",
+    "price": 359.86,
+    "change24h": 1.37,
+    "weight": 0.001026,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "CNC",
+    "price": 76.84,
+    "change24h": -3.95,
+    "weight": 0.000633,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "XOM",
+    "price": 115.07,
+    "change24h": 0.06,
+    "weight": 0.000897,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "CVX",
+    "price": 159.57,
+    "change24h": 2.95,
+    "weight": 0.001041,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "COP",
+    "price": 116.9,
+    "change24h": -2.58,
+    "weight": 0.000548,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "EOG",
+    "price": 121.97,
+    "change24h": -2.42,
+    "weight": 0.000584,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "PXD",
+    "price": 255.18,
+    "change24h": 0.07,
+    "weight": 0.000678,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "OXY",
+    "price": 60.54,
+    "change24h": 0.9,
+    "weight": 0.000732,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "MPC",
+    "price": 194.19,
+    "change24h": 4.97,
+    "weight": 0.000959,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "PSX",
+    "price": 153.91,
+    "change24h": -0.7,
+    "weight": 0.000884,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "VLO",
+    "price": 173.12,
+    "change24h": 4.92,
+    "weight": 0.001033,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "HES",
+    "price": 154.55,
+    "change24h": -0.29,
+    "weight": 0.000671,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "DVN",
+    "price": 51.73,
+    "change24h": 3.47,
+    "weight": 0.000894,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "FANG",
+    "price": 172.98,
+    "change24h": -3.9,
+    "weight": 0.000784,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "APA",
+    "price": 29.42,
+    "change24h": -1.95,
+    "weight": 0.001073,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "HAL",
+    "price": 39.92,
+    "change24h": -0.2,
+    "weight": 0.000582,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "SLB",
+    "price": 48.44,
+    "change24h": -3.13,
+    "weight": 0.001033,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "BKR",
+    "price": 35.76,
+    "change24h": -0.67,
+    "weight": 0.00069,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "NOV",
+    "price": 20.67,
+    "change24h": 3.33,
+    "weight": 0.001003,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "WHD",
+    "price": 40.2,
+    "change24h": 0.51,
+    "weight": 0.001011,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "NEE",
+    "price": 77.23,
+    "change24h": 2.97,
+    "weight": 0.000725,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "D",
+    "price": 50.43,
+    "change24h": -3.02,
+    "weight": 0.001046,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "DUK",
+    "price": 95.03,
+    "change24h": -3.03,
+    "weight": 0.000959,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "SO",
+    "price": 81.52,
+    "change24h": 1.9,
+    "weight": 0.001047,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "AEP",
+    "price": 94.19,
+    "change24h": -3.89,
+    "weight": 0.001032,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "EXC",
+    "price": 40.48,
+    "change24h": -1.27,
+    "weight": 0.000838,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "PCG",
+    "price": 19.84,
+    "change24h": 4.4,
+    "weight": 0.000861,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "ED",
+    "price": 88.45,
+    "change24h": -3.86,
+    "weight": 0.000766,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "ETR",
+    "price": 95.26,
+    "change24h": -2.8,
+    "weight": 0.000744,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "FE",
+    "price": 39.68,
+    "change24h": -0.8,
+    "weight": 0.000644,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "AES",
+    "price": 19.76,
+    "change24h": -1.22,
+    "weight": 0.001063,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "NRG",
+    "price": 34.79,
+    "change24h": -0.6,
+    "weight": 0.000559,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "HD",
+    "price": 339.86,
+    "change24h": -1.49,
+    "weight": 0.000583,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "LOW",
+    "price": 253.97,
+    "change24h": 3.66,
+    "weight": 0.000545,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "TJX",
+    "price": 106.69,
+    "change24h": 1.61,
+    "weight": 0.000559,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "NKE",
+    "price": 99.2,
+    "change24h": 4.42,
+    "weight": 0.00079,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "SBUX",
+    "price": 91.44,
+    "change24h": -0.61,
+    "weight": 0.001005,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "MCD",
+    "price": 297.85,
+    "change24h": 4.51,
+    "weight": 0.0007,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "CMG",
+    "price": 3078.72,
+    "change24h": -3.79,
+    "weight": 0.001056,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "YUM",
+    "price": 129.65,
+    "change24h": -3.96,
+    "weight": 0.000895,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "DRI",
+    "price": 159.51,
+    "change24h": -3.33,
+    "weight": 0.001061,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "BKNG",
+    "price": 3970.24,
+    "change24h": 4.48,
+    "weight": 0.000609,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "ABNB",
+    "price": 148.4,
+    "change24h": -4.26,
+    "weight": 0.000876,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "EXPE",
+    "price": 151.02,
+    "change24h": -2.57,
+    "weight": 0.000616,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "MAR",
+    "price": 240.19,
+    "change24h": 0.08,
+    "weight": 0.001047,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "HLT",
+    "price": 217.71,
+    "change24h": -3.24,
+    "weight": 0.00055,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "WYNN",
+    "price": 103.09,
+    "change24h": 3.09,
+    "weight": 0.000656,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "LVS",
+    "price": 54.85,
+    "change24h": -0.28,
+    "weight": 0.000894,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "MGM",
+    "price": 45.41,
+    "change24h": 0.92,
+    "weight": 0.000866,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "CZR",
+    "price": 46.64,
+    "change24h": 3.64,
+    "weight": 0.001043,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "PENN",
+    "price": 20.38,
+    "change24h": 1.89,
+    "weight": 0.000875,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "DIS",
+    "price": 98.15,
+    "change24h": 3.32,
+    "weight": 0.000731,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "WBD",
+    "price": 9.88,
+    "change24h": -1.2,
+    "weight": 0.001005,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "NFLX",
+    "price": 628.25,
+    "change24h": 1.33,
+    "weight": 0.000991,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "LYV",
+    "price": 96.73,
+    "change24h": -3.27,
+    "weight": 0.001013,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "PARA",
+    "price": 11.44,
+    "change24h": -4.63,
+    "weight": 0.001024,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "FOXA",
+    "price": 39.56,
+    "change24h": -1.09,
+    "weight": 0.001011,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "WMT",
+    "price": 162.53,
+    "change24h": -1.5,
+    "weight": 0.000722,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "TGT",
+    "price": 158.22,
+    "change24h": -4.11,
+    "weight": 0.000941,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "COST",
+    "price": 798.22,
+    "change24h": 1.04,
+    "weight": 0.000657,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "DLTR",
+    "price": 126.51,
+    "change24h": 1.21,
+    "weight": 0.0006,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "DG",
+    "price": 138.74,
+    "change24h": -4.32,
+    "weight": 0.000809,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "KR",
+    "price": 57.55,
+    "change24h": 4.63,
+    "weight": 0.000828,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "GE",
+    "price": 163.93,
+    "change24h": -0.65,
+    "weight": 0.001035,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "HON",
+    "price": 202.64,
+    "change24h": -1.15,
+    "weight": 0.001013,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "UPS",
+    "price": 152.22,
+    "change24h": 4.98,
+    "weight": 0.000611,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "FDX",
+    "price": 261.63,
+    "change24h": -1.27,
+    "weight": 0.000652,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "CAT",
+    "price": 345.41,
+    "change24h": 0.12,
+    "weight": 0.000885,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "DE",
+    "price": 373.72,
+    "change24h": -2.93,
+    "weight": 0.000725,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "EMR",
+    "price": 103.61,
+    "change24h": -1.32,
+    "weight": 0.000558,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "ETN",
+    "price": 299.18,
+    "change24h": -3.49,
+    "weight": 0.00096,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "PH",
+    "price": 519,
+    "change24h": -4.77,
+    "weight": 0.00092,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "ROK",
+    "price": 275.05,
+    "change24h": -3.49,
+    "weight": 0.000625,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "AME",
+    "price": 165.21,
+    "change24h": 0.13,
+    "weight": 0.000773,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "CTAS",
+    "price": 636.57,
+    "change24h": -3.55,
+    "weight": 0.000838,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "FAST",
+    "price": 62.35,
+    "change24h": -4.08,
+    "weight": 0.000644,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "GWW",
+    "price": 1022.29,
+    "change24h": 4.85,
+    "weight": 0.000887,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "MSC",
+    "price": 94.47,
+    "change24h": 4.97,
+    "weight": 0.000718,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "SWK",
+    "price": 107.44,
+    "change24h": 2.32,
+    "weight": 0.000773,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "ITW",
+    "price": 229.1,
+    "change24h": -0.39,
+    "weight": 0.000997,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "DOV",
+    "price": 167.25,
+    "change24h": -4.43,
+    "weight": 0.000807,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "XYL",
+    "price": 62.51,
+    "change24h": -3.83,
+    "weight": 0.000659,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "RXO",
+    "price": 24.42,
+    "change24h": -2.33,
+    "weight": 0.000956,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "CHRW",
+    "price": 98.61,
+    "change24h": -1.39,
+    "weight": 0.00104,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "EXPD",
+    "price": 113.56,
+    "change24h": -1.25,
+    "weight": 0.000654,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "JBHT",
+    "price": 176.5,
+    "change24h": 0.86,
+    "weight": 0.000823,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "ODFL",
+    "price": 219.05,
+    "change24h": 4.31,
+    "weight": 0.001001,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "LMT",
+    "price": 452.12,
+    "change24h": -2.77,
+    "weight": 0.000922,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "RTX",
+    "price": 110.96,
+    "change24h": -3.51,
+    "weight": 0.000771,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "NOC",
+    "price": 494.76,
+    "change24h": 4.16,
+    "weight": 0.001042,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "GD",
+    "price": 287.48,
+    "change24h": 0.87,
+    "weight": 0.000811,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "BA",
+    "price": 208.61,
+    "change24h": 1.76,
+    "weight": 0.000791,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "TDG",
+    "price": 1232.25,
+    "change24h": -1.42,
+    "weight": 0.000762,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "HEI",
+    "price": 172.62,
+    "change24h": -1.36,
+    "weight": 0.000905,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "SPR",
+    "price": 35.82,
+    "change24h": 2.33,
+    "weight": 0.000821,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "LIN",
+    "price": 436.45,
+    "change24h": -3.01,
+    "weight": 0.000609,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "APD",
+    "price": 240.03,
+    "change24h": -2.03,
+    "weight": 0.000968,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "SHW",
+    "price": 358.01,
+    "change24h": 3.77,
+    "weight": 0.000929,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "ECL",
+    "price": 224.03,
+    "change24h": 4.2,
+    "weight": 0.000715,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "DD",
+    "price": 78.34,
+    "change24h": -2.08,
+    "weight": 0.000649,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "NEM",
+    "price": 41.48,
+    "change24h": 3.69,
+    "weight": 0.000872,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "FCX",
+    "price": 43.57,
+    "change24h": -3.18,
+    "weight": 0.001026,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "NUE",
+    "price": 158.12,
+    "change24h": -4.17,
+    "weight": 0.000647,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "STLD",
+    "price": 113.76,
+    "change24h": -1.08,
+    "weight": 0.000543,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "RS",
+    "price": 293.41,
+    "change24h": 4.79,
+    "weight": 0.000686,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "CLF",
+    "price": 20.04,
+    "change24h": 0.2,
+    "weight": 0.000849,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "X",
+    "price": 36.23,
+    "change24h": 3.52,
+    "weight": 0.001023,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "AA",
+    "price": 38.68,
+    "change24h": -3.31,
+    "weight": 0.000682,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "ALB",
+    "price": 89.07,
+    "change24h": -1.03,
+    "weight": 0.000628,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "SQM",
+    "price": 45.46,
+    "change24h": 1.03,
+    "weight": 0.000773,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "CTVA",
+    "price": 56.68,
+    "change24h": 3.06,
+    "weight": 0.000616,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "FMC",
+    "price": 55.57,
+    "change24h": 1.04,
+    "weight": 0.000921,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "MOS",
+    "price": 29.93,
+    "change24h": -0.23,
+    "weight": 0.001065,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "CF",
+    "price": 77.04,
+    "change24h": -3.7,
+    "weight": 0.000898,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "NTR",
+    "price": 67.99,
+    "change24h": 4.6,
+    "weight": 0.000743,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "T",
+    "price": 17.81,
+    "change24h": -1.06,
+    "weight": 0.000863,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "VZ",
+    "price": 43.11,
+    "change24h": 2.64,
+    "weight": 0.00081,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "TMUS",
+    "price": 172.31,
+    "change24h": -1.54,
+    "weight": 0.000681,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "LUMN",
+    "price": 0.97,
+    "change24h": -3.07,
+    "weight": 0.000751,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "DISH",
+    "price": 5.17,
+    "change24h": 3.44,
+    "weight": 0.000957,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "CHTR",
+    "price": 404.12,
+    "change24h": 2.31,
+    "weight": 0.000679,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "CMCSA",
+    "price": 41.27,
+    "change24h": -1.73,
+    "weight": 0.001051,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "ATUS",
+    "price": 5.12,
+    "change24h": 2.41,
+    "weight": 0.000613,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "TDS",
+    "price": 4.1,
+    "change24h": 2.43,
+    "weight": 0.000995,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "USM",
+    "price": 36,
+    "change24h": 2.86,
+    "weight": 0.000956,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "AMT",
+    "price": 198.16,
+    "change24h": 1.62,
+    "weight": 0.000807,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "PLD",
+    "price": 111.29,
+    "change24h": -3.23,
+    "weight": 0.00102,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "CCI",
+    "price": 105.25,
+    "change24h": 0.24,
+    "weight": 0.000772,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "EQIX",
+    "price": 824.92,
+    "change24h": 4.42,
+    "weight": 0.000672,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "PSA",
+    "price": 276.66,
+    "change24h": -4.6,
+    "weight": 0.000657,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "O",
+    "price": 54.65,
+    "change24h": -0.64,
+    "weight": 0.000978,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "WELL",
+    "price": 89.34,
+    "change24h": -0.73,
+    "weight": 0.000576,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "VTR",
+    "price": 47.63,
+    "change24h": -4.75,
+    "weight": 0.000999,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "BXP",
+    "price": 67.44,
+    "change24h": 3.75,
+    "weight": 0.000817,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "SLG",
+    "price": 44.66,
+    "change24h": -0.76,
+    "weight": 0.000581,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "KIM",
+    "price": 23.99,
+    "change24h": 4.31,
+    "weight": 0.000689,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "REG",
+    "price": 67.7,
+    "change24h": 4.15,
+    "weight": 0.000818,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "FRT",
+    "price": 92.2,
+    "change24h": -2.95,
+    "weight": 0.001035,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "SPG",
+    "price": 150.71,
+    "change24h": -2.77,
+    "weight": 0.000933,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "MAC",
+    "price": 17.54,
+    "change24h": 3.17,
+    "weight": 0.000745,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "IRM",
+    "price": 97.26,
+    "change24h": 2.38,
+    "weight": 0.000726,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "SBAC",
+    "price": 218.12,
+    "change24h": -3.06,
+    "weight": 0.000797,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "DLR",
+    "price": 138.23,
+    "change24h": -4.67,
+    "weight": 0.00088,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "EXR",
+    "price": 154.4,
+    "change24h": -0.39,
+    "weight": 0.000781,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "CUBE",
+    "price": 48.47,
+    "change24h": 0.97,
+    "weight": 0.000693,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "EQR",
+    "price": 64.9,
+    "change24h": -0.16,
+    "weight": 0.000627,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "AVB",
+    "price": 193.54,
+    "change24h": -0.75,
+    "weight": 0.000909,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "ESS",
+    "price": 251.91,
+    "change24h": -1.21,
+    "weight": 0.000853,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "MAA",
+    "price": 150.37,
+    "change24h": -2.99,
+    "weight": 0.000669,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "UDR",
+    "price": 38.08,
+    "change24h": -4.81,
+    "weight": 0.000573,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "CPT",
+    "price": 111.81,
+    "change24h": -2.77,
+    "weight": 0.000953,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "AIV",
+    "price": 13.6,
+    "change24h": -2.85,
+    "weight": 0.001022,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "MRNA",
+    "price": 101.46,
+    "change24h": -3.37,
+    "weight": 0.000593,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "BNTX",
+    "price": 102.44,
+    "change24h": -2.44,
+    "weight": 0.000886,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "NKTR",
+    "price": 4.18,
+    "change24h": 4.38,
+    "weight": 0.001072,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "EXEL",
+    "price": 23.01,
+    "change24h": 4.57,
+    "weight": 0.000692,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "ACAD",
+    "price": 18.28,
+    "change24h": 1.54,
+    "weight": 0.000949,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "ALKS",
+    "price": 36.3,
+    "change24h": 3.72,
+    "weight": 0.000687,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "INCY",
+    "price": 62.4,
+    "change24h": -4,
+    "weight": 0.000832,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "JAZZ",
+    "price": 109.31,
+    "change24h": -0.63,
+    "weight": 0.0006,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "FOLD",
+    "price": 18.48,
+    "change24h": 2.66,
+    "weight": 0.000739,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "RARE",
+    "price": 25.38,
+    "change24h": 1.51,
+    "weight": 0.000789,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "ALNY",
+    "price": 209.45,
+    "change24h": -2.58,
+    "weight": 0.000564,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "BMRN",
+    "price": 83.88,
+    "change24h": 2.29,
+    "weight": 0.000932,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "SRPT",
+    "price": 92.41,
+    "change24h": -4.73,
+    "weight": 0.001042,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "PTCT",
+    "price": 52.34,
+    "change24h": 4.67,
+    "weight": 0.000563,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "IONS",
+    "price": 47.13,
+    "change24h": 4.73,
+    "weight": 0.000709,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "ARWR",
+    "price": 28.11,
+    "change24h": 0.38,
+    "weight": 0.000693,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "RCUS",
+    "price": 15.04,
+    "change24h": 0.3,
+    "weight": 0.001032,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "IMVT",
+    "price": 35.93,
+    "change24h": 2.67,
+    "weight": 0.000859,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "ROIV",
+    "price": 9.74,
+    "change24h": -2.63,
+    "weight": 0.00103,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "KYMR",
+    "price": 54.42,
+    "change24h": 4.65,
+    "weight": 0.0006,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "SNAP",
+    "price": 12.75,
+    "change24h": -1.96,
+    "weight": 0.00097,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "PINS",
+    "price": 32.52,
+    "change24h": 1.61,
+    "weight": 0.000931,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "RDDT",
+    "price": 60.68,
+    "change24h": 1.13,
+    "weight": 0.000974,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "SPOT",
+    "price": 349.32,
+    "change24h": 2.74,
+    "weight": 0.000633,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "IPG",
+    "price": 30.41,
+    "change24h": 1.38,
+    "weight": 0.001072,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "OMC",
+    "price": 85.31,
+    "change24h": 0.36,
+    "weight": 0.000768,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "NYT",
+    "price": 56.92,
+    "change24h": 3.5,
+    "weight": 0.00087,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "NWSA",
+    "price": 24.34,
+    "change24h": -2.62,
+    "weight": 0.000818,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "COIN",
+    "price": 230.76,
+    "change24h": 2.56,
+    "weight": 0.000905,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "MSTR",
+    "price": 1508.29,
+    "change24h": 4.02,
+    "weight": 0.000642,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "RIOT",
+    "price": 9.92,
+    "change24h": -0.79,
+    "weight": 0.000886,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "MARA",
+    "price": 17.14,
+    "change24h": -4.78,
+    "weight": 0.00091,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "HUT",
+    "price": 3.98,
+    "change24h": -0.49,
+    "weight": 0.001027,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "CLSK",
+    "price": 10.03,
+    "change24h": 0.32,
+    "weight": 0.00086,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "BTBT",
+    "price": 4.11,
+    "change24h": 2.68,
+    "weight": 0.000962,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "SOFI",
+    "price": 13.3,
+    "change24h": 2.34,
+    "weight": 0.001042,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "AFRM",
+    "price": 51.04,
+    "change24h": 2.09,
+    "weight": 0.000653,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "UPST",
+    "price": 34.6,
+    "change24h": -1.13,
+    "weight": 0.000737,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "LC",
+    "price": 13.46,
+    "change24h": -3.84,
+    "weight": 0.000639,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "OPEN",
+    "price": 2.01,
+    "change24h": 0.35,
+    "weight": 0.000825,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "HOOD",
+    "price": 22.32,
+    "change24h": 1.46,
+    "weight": 0.000998,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "IBKR",
+    "price": 189.87,
+    "change24h": 2.63,
+    "weight": 0.000809,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "FUTU",
+    "price": 81.24,
+    "change24h": -4.42,
+    "weight": 0.000721,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "TIGR",
+    "price": 8.12,
+    "change24h": 1.54,
+    "weight": 0.000838,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "PFSI",
+    "price": 50.78,
+    "change24h": 1.55,
+    "weight": 0.000578,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "UBER",
+    "price": 76.46,
+    "change24h": 1.94,
+    "weight": 0.00088,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "LYFT",
+    "price": 18.47,
+    "change24h": 2.63,
+    "weight": 0.000677,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "DASH",
+    "price": 122.29,
+    "change24h": 1.91,
+    "weight": 0.000963,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "RBLX",
+    "price": 40.92,
+    "change24h": 2.31,
+    "weight": 0.000612,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "U",
+    "price": 24.36,
+    "change24h": -2.57,
+    "weight": 0.000543,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "MTCH",
+    "price": 34.91,
+    "change24h": -0.26,
+    "weight": 0.000724,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "BMBL",
+    "price": 12.31,
+    "change24h": 2.58,
+    "weight": 0.001036,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "ZM",
+    "price": 63.88,
+    "change24h": -1.73,
+    "weight": 0.000878,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "DOCU",
+    "price": 55.32,
+    "change24h": 0.59,
+    "weight": 0.000942,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "BILL",
+    "price": 71.95,
+    "change24h": 2.79,
+    "weight": 0.000844,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "GTLB",
+    "price": 53.11,
+    "change24h": -3.44,
+    "weight": 0.000763,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "SMAR",
+    "price": 46.93,
+    "change24h": 4.28,
+    "weight": 0.000554,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "APPF",
+    "price": 175.44,
+    "change24h": 0.25,
+    "weight": 0.000564,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "PAYC",
+    "price": 190.77,
+    "change24h": 3.12,
+    "weight": 0.001055,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "PCTY",
+    "price": 227.41,
+    "change24h": 1.07,
+    "weight": 0.000669,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "TOST",
+    "price": 25.19,
+    "change24h": 0.75,
+    "weight": 0.000838,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "PAX",
+    "price": 175.79,
+    "change24h": 0.45,
+    "weight": 0.000577,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "PAR",
+    "price": 30.53,
+    "change24h": 1.76,
+    "weight": 0.000912,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "MNDY",
+    "price": 248.85,
+    "change24h": -0.46,
+    "weight": 0.000901,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "DOMO",
+    "price": 11.84,
+    "change24h": -1.36,
+    "weight": 0.00093,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "BOX",
+    "price": 25.81,
+    "change24h": 3.23,
+    "weight": 0.000816,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "DRCT",
+    "price": 5.08,
+    "change24h": 1.62,
+    "weight": 0.000723,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "ALRM",
+    "price": 53.17,
+    "change24h": -3.32,
+    "weight": 0.00098,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "FOUR",
+    "price": 77.87,
+    "change24h": 3.83,
+    "weight": 0.000929,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "RPAY",
+    "price": 11.7,
+    "change24h": -2.54,
+    "weight": 0.000928,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "PAYO",
+    "price": 5.04,
+    "change24h": 0.88,
+    "weight": 0.001023,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "GPN",
+    "price": 109.76,
+    "change24h": -4.56,
+    "weight": 0.001055,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "FIS",
+    "price": 64.44,
+    "change24h": -0.86,
+    "weight": 0.000658,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "FISV",
+    "price": 174.37,
+    "change24h": -0.36,
+    "weight": 0.000752,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "WEX",
+    "price": 212.12,
+    "change24h": -1.34,
+    "weight": 0.000731,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "EVTC",
+    "price": 34.01,
+    "change24h": -2.84,
+    "weight": 0.001002,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "EVERI",
+    "price": 14.9,
+    "change24h": -0.68,
+    "weight": 0.000592,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "PRFT",
+    "price": 53.02,
+    "change24h": 1.96,
+    "weight": 0.00055,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "EPAM",
+    "price": 190.61,
+    "change24h": -2.25,
+    "weight": 0.000625,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "GLOB",
+    "price": 161.97,
+    "change24h": 4.5,
+    "weight": 0.000687,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "KSCP",
+    "price": 2.97,
+    "change24h": -0.98,
+    "weight": 0.000948,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "PTC",
+    "price": 167.44,
+    "change24h": -4.32,
+    "weight": 0.000901,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "ANGI",
+    "price": 1.94,
+    "change24h": -3.07,
+    "weight": 0.000832,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "IAC",
+    "price": 53.98,
+    "change24h": -1.86,
+    "weight": 0.00054,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "ZG",
+    "price": 56.12,
+    "change24h": 2.04,
+    "weight": 0.000773,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "RDFN",
+    "price": 6.07,
+    "change24h": 1.18,
+    "weight": 0.001024,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "COMP",
+    "price": 5.11,
+    "change24h": 2.21,
+    "weight": 0.000968,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "RKT",
+    "price": 10.36,
+    "change24h": 3.6,
+    "weight": 0.000772,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "UWM",
+    "price": 7.24,
+    "change24h": 3.36,
+    "weight": 0.00106,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "COOP",
+    "price": 67.21,
+    "change24h": 3.4,
+    "weight": 0.000883,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "WAL",
+    "price": 56.88,
+    "change24h": 3.42,
+    "weight": 0.000834,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "BANR",
+    "price": 46.55,
+    "change24h": 3.45,
+    "weight": 0.000794,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "BOKF",
+    "price": 96,
+    "change24h": 1.05,
+    "weight": 0.000867,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "CVBF",
+    "price": 22.83,
+    "change24h": 3.79,
+    "weight": 0.000649,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "FBIZ",
+    "price": 36.07,
+    "change24h": 3.05,
+    "weight": 0.000892,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "HTLF",
+    "price": 35.73,
+    "change24h": 2.1,
+    "weight": 0.000727,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "FFIN",
+    "price": 34.83,
+    "change24h": -0.5,
+    "weight": 0.001044,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "TCBK",
+    "price": 26.77,
+    "change24h": -4.39,
+    "weight": 0.000724,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "HAFC",
+    "price": 22.49,
+    "change24h": 2.21,
+    "weight": 0.00056,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "EWBC",
+    "price": 82.34,
+    "change24h": 2.93,
+    "weight": 0.000958,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "HOPE",
+    "price": 12.05,
+    "change24h": 0.41,
+    "weight": 0.000839,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "NYCB",
+    "price": 11.4,
+    "change24h": -5,
+    "weight": 0.001005,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "SBNY",
+    "price": 5.94,
+    "change24h": -1.03,
+    "weight": 0.00076,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "PACW",
+    "price": 9.11,
+    "change24h": 1.27,
+    "weight": 0.000771,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "ZION",
+    "price": 43.18,
+    "change24h": 2.8,
+    "weight": 0.000576,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "IBOC",
+    "price": 52.67,
+    "change24h": -4.24,
+    "weight": 0.00084,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "CATY",
+    "price": 32.83,
+    "change24h": 2.6,
+    "weight": 0.000739,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "RNST",
+    "price": 29.07,
+    "change24h": 3.81,
+    "weight": 0.000709,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "SFNC",
+    "price": 23.06,
+    "change24h": 4.84,
+    "weight": 0.000939,
+    "volatility": "med",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "FBMS",
+    "price": 34.21,
+    "change24h": -2.27,
+    "weight": 0.000675,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "HFWA",
+    "price": 22.72,
+    "change24h": 3.27,
+    "weight": 0.00096,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "CZWI",
+    "price": 18.89,
+    "change24h": 4.95,
+    "weight": 0.000648,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "NBTB",
+    "price": 25.86,
+    "change24h": 3.46,
+    "weight": 0.000564,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "ESSA",
+    "price": 17.58,
+    "change24h": -2.35,
+    "weight": 0.000617,
+    "volatility": "med",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "ZZ000",
+    "price": 60.46,
+    "change24h": 3.67,
+    "weight": 0.000713,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "ZZ001",
+    "price": 13.17,
+    "change24h": -1.95,
+    "weight": 0.000785,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "ZZ002",
+    "price": 87.59,
+    "change24h": -2.6,
+    "weight": 0.000969,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "ZZ003",
+    "price": 54.32,
+    "change24h": -3.52,
+    "weight": 0.000893,
+    "volatility": "low",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "ZZ004",
+    "price": 36.29,
+    "change24h": -0.37,
+    "weight": 0.000696,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "ZZ005",
+    "price": 59.43,
+    "change24h": -3.08,
+    "weight": 0.000792,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "ZZ006",
+    "price": 38.5,
+    "change24h": -2.73,
+    "weight": 0.000631,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "ZZ007",
+    "price": 81.76,
+    "change24h": 2.7,
+    "weight": 0.001039,
+    "volatility": "high",
+    "momentum": "negative"
+  },
+  {
+    "symbol": "ZZ008",
+    "price": 72.77,
+    "change24h": 4.34,
+    "weight": 0.000972,
+    "volatility": "med",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "ZZ009",
+    "price": 94.98,
+    "change24h": 1.87,
+    "weight": 0.00061,
+    "volatility": "high",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "ZZ010",
+    "price": 98.63,
+    "change24h": 3.06,
+    "weight": 0.00101,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "ZZ011",
+    "price": 79.24,
+    "change24h": -0.19,
+    "weight": 0.000564,
+    "volatility": "high",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "ZZ012",
+    "price": 85.94,
+    "change24h": -1.61,
+    "weight": 0.000675,
+    "volatility": "low",
+    "momentum": "neutral"
+  },
+  {
+    "symbol": "ZZ013",
+    "price": 89.27,
+    "change24h": 1.17,
+    "weight": 0.000923,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "ZZ014",
+    "price": 18.95,
+    "change24h": -1.92,
+    "weight": 0.001014,
+    "volatility": "low",
+    "momentum": "positive"
+  },
+  {
+    "symbol": "ZZ015",
+    "price": 54.97,
+    "change24h": 2.1,
+    "weight": 0.000844,
+    "volatility": "med",
+    "momentum": "negative"
+  }
+]
