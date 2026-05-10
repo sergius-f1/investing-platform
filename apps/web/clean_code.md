@@ -79,6 +79,10 @@ _____________________________________
 4. Independent.
 5. Repeatable.
 
+## HTML rules
+1. Use semantic tags. Prefer `<main>`, `<section>`, `<article>`, `<header>`, `<nav>`, `<aside>`, `<footer>` over `<div>` where content has meaning.
+2. Use `<section>` for thematically grouped content. Add `aria-label` when multiple sections exist on the same page.
+
 ## Code smells
 1. Rigidity. The software is difficult to change. A small change causes a cascade of subsequent changes.
 2. Fragility. The software breaks in many places due to a single change.
